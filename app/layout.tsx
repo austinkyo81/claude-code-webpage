@@ -24,9 +24,9 @@ const dmMono = DM_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Arnie's AI Revolution | Enterprise AI Agents & Automations",
+  title: "AK9299 AI Revolution | Enterprise AI Agents & Automations",
   description:
-    'Custom AI Agents & Automations for enterprise-scale businesses with €4M+ revenue. Led by Arnold Oberleiter.',
+    'Custom AI Agents & Automations for enterprise-scale businesses with €4M+ revenue. Led by AK9299.',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

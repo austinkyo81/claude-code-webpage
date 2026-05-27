@@ -20,10 +20,10 @@ export default function Footer() {
               Contact
             </div>
             <a
-              href="mailto:arnio93@gmail.com"
+              href="mailto:austinkyo@gmail.com"
               className="font-sans text-sm text-gray-400 hover:text-gold transition-colors duration-200 block"
             >
-              arnio93@gmail.com
+              austinkyo@gmail.com
             </a>
           </div>
 
@@ -67,7 +67,7 @@ export default function Footer() {
             © {new Date().getFullYear()} Arnold Oberleiter. All rights reserved.
           </p>
           <p className="font-mono text-[11px] text-gray-600 uppercase tracking-[0.2em]">
-            AI mit Arnie · KI-Revolution
+            AI mit AK9299 · KI-Revolution
           </p>
         </div>
       </div>

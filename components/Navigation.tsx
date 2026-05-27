@@ -20,7 +20,7 @@ export default function Navigation() {
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12 h-20 flex items-center justify-between">
         <div className="font-syne font-bold text-base tracking-[0.25em] uppercase text-white">
-          Arnie<span className="text-gold">.</span>
+          AK9299 AI<span className="text-gold">.</span>
         </div>
         <a
           href="mailto:arnio93@gmail.com"

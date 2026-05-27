@@ -55,7 +55,7 @@ export default function Services() {
             viewport={{ once: true }}
             transition={{ delay: 0.1, duration: 0.65, ease: 'easeOut' }}
           >
-            Two Ways Arnie Scales Your Business
+            Two Ways AK9299 Scales Your Business
           </motion.h2>
         </div>
 

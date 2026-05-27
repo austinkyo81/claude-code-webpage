@@ -73,7 +73,7 @@ export default function Hero() {
 
             <motion.div variants={item}>
               <a
-                href="mailto:arnio93@gmail.com"
+                href="mailto:austinkyo@gmail.com"
                 className="inline-flex items-center gap-3 bg-gold text-black font-syne font-bold text-[0.7rem] tracking-[0.2em] uppercase px-8 py-4 hover:bg-gold-light transition-all duration-300 group"
               >
                 Book Initial Consultation

@@ -28,7 +28,7 @@ export default function Community() {
           viewport={{ once: true }}
           transition={{ delay: 0.1, duration: 0.7, ease: [0.16, 1, 0.3, 1] as const }}
         >
-          AI mit Arnie:<br />
+          AK9299 AI:<br />
           <span className="text-gold">KI-Revolution</span>
         </motion.h2>
 
