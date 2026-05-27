@@ -49,7 +49,7 @@ export default function Hero() {
 
             <motion.h1
               variants={item}
-              className="font-syne font-extrabold text-[3.2rem] md:text-[4rem] xl:text-[4.75rem] leading-[0.93] tracking-tight text-white mb-7"
+              className="font-syne font-extrabold text-[1.8rem] sm:text-[2.7rem] md:text-[4rem] xl:text-[4.75rem] leading-[0.95] tracking-tight text-white mb-7"
             >
               AI Agents &<br />
               <span className="text-gray-300">Automations</span>
