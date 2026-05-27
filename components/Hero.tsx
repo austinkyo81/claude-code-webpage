@@ -149,7 +149,7 @@ export default function Hero() {
 
             {/* Floating badge */}
             <motion.div
-              className="mt-4 inline-block bg-[#0d0d0d] border border-white/[0.08] px-4 py-3"
+              className="mt-4 block w-fit ml-10 bg-[#0d0d0d] border border-white/[0.08] px-4 py-3"
               initial={{ opacity: 0, x: -16 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.9, duration: 0.6, ease: EASE }}
