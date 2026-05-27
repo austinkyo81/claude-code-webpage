@@ -117,7 +117,7 @@ export default function Hero() {
 
           {/* Right: Portrait */}
           <motion.div
-            className="order-1 lg:order-2 relative"
+            className="order-1 lg:order-2 relative pb-8 lg:pb-0"
             initial={{ opacity: 0, scale: 0.97 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1.1, delay: 0.15, ease: EASE }}
