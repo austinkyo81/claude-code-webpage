@@ -117,7 +117,7 @@ export default function Hero() {
 
           {/* Right: Portrait */}
           <motion.div
-            className="order-1 lg:order-2 relative pb-8 lg:pb-0"
+            className="order-1 lg:order-2 relative"
             initial={{ opacity: 0, scale: 0.97 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1.1, delay: 0.15, ease: EASE }}
@@ -149,7 +149,7 @@ export default function Hero() {
 
             {/* Floating badge */}
             <motion.div
-              className="absolute -bottom-5 -left-5 lg:-left-8 bg-[#0d0d0d] border border-white/[0.08] px-4 py-3 z-20"
+              className="mt-4 inline-block bg-[#0d0d0d] border border-white/[0.08] px-4 py-3"
               initial={{ opacity: 0, x: -16 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.9, duration: 0.6, ease: EASE }}
