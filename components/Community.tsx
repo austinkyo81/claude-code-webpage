@@ -13,7 +13,7 @@ export default function Community() {
 
       <div className="relative max-w-4xl mx-auto px-6 md:px-12 text-center">
         <motion.span
-          className="font-mono text-[10px] tracking-[0.35em] uppercase text-gold/75"
+          className="font-mono text-xs tracking-[0.35em] uppercase text-gold"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
@@ -33,7 +33,7 @@ export default function Community() {
         </motion.h2>
 
         <motion.p
-          className="font-sans text-[1.05rem] text-gray-500 mb-12 max-w-2xl mx-auto leading-relaxed"
+          className="font-sans text-[1.05rem] text-gray-300 mb-12 max-w-2xl mx-auto leading-relaxed"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -88,8 +88,8 @@ export default function Community() {
             { label: 'Exclusive Content', symbol: '◆' },
           ].map((item) => (
             <div key={item.label} className="text-center">
-              <div className="text-gold text-[8px] mb-2.5">{item.symbol}</div>
-              <div className="font-mono text-[9px] text-gray-600 uppercase tracking-[0.25em]">
+              <div className="text-gold text-[10px] mb-2.5">{item.symbol}</div>
+              <div className="font-mono text-[11px] text-gray-400 uppercase tracking-[0.25em]">
                 {item.label}
               </div>
             </div>

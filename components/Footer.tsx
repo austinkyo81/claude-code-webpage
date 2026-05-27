@@ -9,14 +9,14 @@ export default function Footer() {
             <div className="font-syne font-bold text-lg tracking-[0.25em] uppercase text-white mb-4">
               Arnie<span className="text-gold">.</span>
             </div>
-            <p className="font-sans text-sm text-gray-600 max-w-xs leading-relaxed">
+            <p className="font-sans text-sm text-gray-400 max-w-xs leading-relaxed">
               AI Agents & Automations for enterprise-scale businesses with €4M+ annual revenue.
             </p>
           </div>
 
           {/* Contact */}
           <div>
-            <div className="font-mono text-[9px] text-gray-700 uppercase tracking-[0.3em] mb-5">
+            <div className="font-mono text-[11px] text-gray-500 uppercase tracking-[0.3em] mb-5">
               Contact
             </div>
             <a
@@ -29,12 +29,12 @@ export default function Footer() {
 
           {/* Social */}
           <div>
-            <div className="font-mono text-[9px] text-gray-700 uppercase tracking-[0.3em] mb-5">
+            <div className="font-mono text-[11px] text-gray-500 uppercase tracking-[0.3em] mb-5">
               Follow
             </div>
             <div className="space-y-3">
               <a
-                href="https://www.youtube.com/@Arnold-Oberleiter"
+                href="https://www.youtube.com/@AAArnold-Oberleiter"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2.5 font-sans text-sm text-gray-400 hover:text-gold transition-colors duration-200"
@@ -63,10 +63,10 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/[0.04] pt-8 flex flex-col md:flex-row justify-between items-center gap-3">
-          <p className="font-mono text-[9px] text-gray-700 uppercase tracking-[0.2em]">
+          <p className="font-mono text-[11px] text-gray-500 uppercase tracking-[0.2em]">
             © {new Date().getFullYear()} Arnold Oberleiter. All rights reserved.
           </p>
-          <p className="font-mono text-[9px] text-gray-800 uppercase tracking-[0.2em]">
+          <p className="font-mono text-[11px] text-gray-600 uppercase tracking-[0.2em]">
             AI mit Arnie · KI-Revolution
           </p>
         </div>

@@ -24,7 +24,7 @@ export default function Navigation() {
         </div>
         <a
           href="mailto:arnio93@gmail.com"
-          className="font-mono text-[10px] tracking-[0.25em] uppercase px-5 py-2.5 border border-gold/40 text-gold hover:bg-gold hover:text-black transition-all duration-300"
+          className="font-mono text-xs tracking-[0.25em] uppercase px-5 py-2.5 border border-gold/40 text-gold hover:bg-gold hover:text-black transition-all duration-300"
         >
           Book Consultation
         </a>

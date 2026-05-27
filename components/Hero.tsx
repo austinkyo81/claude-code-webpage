@@ -22,23 +22,14 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex items-center bg-black overflow-hidden"
+      className="relative min-h-screen flex items-center overflow-hidden"
     >
-      {/* Subtle grid */}
-      <div
-        className="absolute inset-0 opacity-[0.025]"
-        style={{
-          backgroundImage: `
-            linear-gradient(rgba(255,255,255,1) 1px, transparent 1px),
-            linear-gradient(90deg, rgba(255,255,255,1) 1px, transparent 1px)
-          `,
-          backgroundSize: '72px 72px',
-        }}
-      />
+      {/* Dark veil on left half so text stays legible over the shader */}
+      <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/25 to-transparent" />
 
       {/* Gold ambient glow, right side */}
-      <div className="absolute top-1/4 right-0 w-[45%] h-[70%] bg-gradient-to-l from-gold/[0.05] via-gold/[0.02] to-transparent rounded-full blur-3xl" />
-      <div className="absolute bottom-0 left-0 w-80 h-80 bg-gold/[0.04] blur-[100px] rounded-full" />
+      <div className="absolute top-1/4 right-0 w-[45%] h-[70%] bg-gradient-to-l from-gold/[0.08] via-gold/[0.03] to-transparent rounded-full blur-3xl" />
+      <div className="absolute bottom-0 left-0 w-80 h-80 bg-gold/[0.06] blur-[100px] rounded-full" />
 
       <div className="relative max-w-7xl mx-auto px-6 md:px-12 py-32 lg:py-0 w-full min-h-screen flex items-center">
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_0.85fr] gap-16 lg:gap-20 items-center w-full">
@@ -51,7 +42,7 @@ export default function Hero() {
             className="order-2 lg:order-1"
           >
             <motion.div variants={item} className="mb-7">
-              <span className="font-mono text-[10px] tracking-[0.35em] uppercase text-gold/75 border border-gold/20 px-3 py-1.5 inline-block">
+              <span className="font-mono text-xs tracking-[0.35em] uppercase text-gold border border-gold/30 px-3 py-1.5 inline-block">
                 Enterprise AI Solutions
               </span>
             </motion.div>
@@ -68,13 +59,13 @@ export default function Hero() {
               Scale.
             </motion.h1>
 
-            <motion.p variants={item} className="font-sans text-[1.05rem] text-gray-400 mb-2 leading-relaxed">
+            <motion.p variants={item} className="font-sans text-[1.05rem] text-gray-200 mb-2 leading-relaxed">
               Built exclusively for companies with{' '}
               <span className="text-white font-medium">€4M+</span> in annual revenue.
             </motion.p>
             <motion.p
               variants={item}
-              className="font-sans text-[0.95rem] text-gray-500 mb-10 leading-relaxed max-w-[480px]"
+              className="font-sans text-[0.95rem] text-gray-300 mb-10 leading-relaxed max-w-[480px]"
             >
               Custom AI agents, n8n workflow automations, and strategic consulting
               that multiply operational efficiency across your enterprise.
@@ -116,7 +107,7 @@ export default function Hero() {
               ].map((stat) => (
                 <div key={stat.label}>
                   <div className="font-syne font-bold text-2xl text-white mb-1">{stat.value}</div>
-                  <div className="font-mono text-[9px] text-gray-600 uppercase tracking-[0.25em]">
+                  <div className="font-mono text-[11px] text-gray-400 uppercase tracking-[0.25em]">
                     {stat.label}
                   </div>
                 </div>
@@ -180,7 +171,7 @@ export default function Hero() {
         animate={{ opacity: 1 }}
         transition={{ delay: 1.8, duration: 0.6 }}
       >
-        <span className="font-mono text-[9px] text-gray-700 uppercase tracking-[0.3em]">Scroll</span>
+        <span className="font-mono text-[11px] text-gray-500 uppercase tracking-[0.3em]">Scroll</span>
         <motion.div
           className="w-px h-10 bg-gradient-to-b from-gold/30 to-transparent"
           animate={{ opacity: [0.4, 1, 0.4] }}

@@ -41,7 +41,7 @@ export default function Services() {
         {/* Header */}
         <div className="mb-20">
           <motion.span
-            className="font-mono text-[10px] tracking-[0.35em] uppercase text-gold/75"
+            className="font-mono text-xs tracking-[0.35em] uppercase text-gold"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
@@ -70,20 +70,20 @@ export default function Services() {
               viewport={{ once: true }}
               transition={{ delay: index * 0.15, duration: 0.65 }}
             >
-              <span className="font-mono text-[9px] tracking-[0.35em] uppercase text-gold/75 border border-gold/20 inline-block px-3 py-1.5 mb-8">
+              <span className="font-mono text-[11px] tracking-[0.35em] uppercase text-gold border border-gold/30 inline-block px-3 py-1.5 mb-8">
                 {service.tag}
               </span>
               <h3 className="font-syne font-bold text-2xl md:text-[1.75rem] text-white mb-4 leading-tight">
                 {service.headline}
               </h3>
-              <p className="font-sans text-[0.93rem] text-gray-500 mb-9 leading-relaxed">
+              <p className="font-sans text-[0.93rem] text-gray-300 mb-9 leading-relaxed">
                 {service.description}
               </p>
               <ul className="space-y-3.5">
                 {service.features.map((feature) => (
                   <li key={feature} className="flex items-center gap-3">
                     <span className="w-1 h-1 rounded-full bg-gold flex-shrink-0" />
-                    <span className="font-sans text-sm text-gray-400">{feature}</span>
+                    <span className="font-sans text-sm text-gray-300">{feature}</span>
                   </li>
                 ))}
               </ul>

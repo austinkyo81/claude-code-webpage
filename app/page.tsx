@@ -4,10 +4,12 @@ import Services from '@/components/Services'
 import Community from '@/components/Community'
 import VideoSection from '@/components/VideoSection'
 import Footer from '@/components/Footer'
+import ShaderBackground from '@/components/ui/shader-background'
 
 export default function Home() {
   return (
     <main>
+      <ShaderBackground />
       <Navigation />
       <Hero />
       <Services />

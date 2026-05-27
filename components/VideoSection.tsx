@@ -26,7 +26,7 @@ export default function VideoSection() {
         {/* Heading */}
         <div className="text-center mb-16">
           <motion.span
-            className="font-mono text-[10px] tracking-[0.35em] uppercase text-gold/75"
+            className="font-mono text-xs tracking-[0.35em] uppercase text-gold"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
@@ -44,7 +44,7 @@ export default function VideoSection() {
             <span className="text-gold">With AI.</span>
           </motion.h2>
           <motion.p
-            className="font-sans text-[0.95rem] text-gray-500 mt-5 max-w-md mx-auto leading-relaxed"
+            className="font-sans text-[0.95rem] text-gray-300 mt-5 max-w-md mx-auto leading-relaxed"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
@@ -95,7 +95,7 @@ export default function VideoSection() {
         >
           <a
             href="mailto:arnio93@gmail.com"
-            className="font-mono text-[10px] tracking-[0.3em] uppercase text-gold/60 hover:text-gold transition-colors duration-300 border-b border-gold/20 hover:border-gold/50 pb-0.5"
+            className="font-mono text-xs tracking-[0.3em] uppercase text-gold/80 hover:text-gold transition-colors duration-300 border-b border-gold/30 hover:border-gold/60 pb-0.5"
           >
             Start your AI transformation →
           </a>
